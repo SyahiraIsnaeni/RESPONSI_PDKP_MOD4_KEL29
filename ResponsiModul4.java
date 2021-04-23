@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.print("Silakan masukkan kata : ");
-        array =(input.next().toCharArray());
+        array =(input.nextLine().toCharArray());
 
         String[] opsi = {
                 "1. Enkripsi", "2. Dekripsi"
